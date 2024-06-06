@@ -37,7 +37,7 @@ const router = createBrowserRouter([
 function App() {
   
   return (
-   <div className=' px-4 md:px-[32rem] py-24 md:py-28 bg-slate-100 w-screen h-[100%]'>
+   <div className=' px-6 md:px-[32rem] py-24 md:py-28 bg-slate-100 w-screen h-[100%]'>
     <form className='rounded-xl hover:shadow-xl px-10 bg-white'>
     <RouterProvider router={router} />
     </form>
